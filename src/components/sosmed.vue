@@ -60,8 +60,8 @@ export default {
       desc: {
         icon: "fa-solid fa-envelope",
         type: "Email",
-        name: "Hafidz.bdt@gmail.com",
-        link: "mailto:hafidz.bdt@all-inedu.com",
+        name: "ekaa.wakwik@gmail.com",
+        link: "mailto:ekaa.wakwik@gmail.com",
         button: "Send a Email",
       },
       tabIcon: "email",
@@ -73,39 +73,39 @@ export default {
       if (n == "email") {
         this.desc.icon = "fa-solid fa-envelope";
         this.desc.type = "Email";
-        this.desc.name = "Hafidz.bdt@gmail.com";
-        this.desc.link = "mailto:hafidz.bdt@all-inedu.com";
+        this.desc.name = "ekaa.wakwik@gmail.com";
+        this.desc.link = "mailto:ekaa.wakwik@gmail.com";
         this.desc.button = "Send a Email";
       } else if (n == "ig") {
         this.desc.icon = "fa-brands fa-instagram";
         this.desc.type = "Instagram";
-        this.desc.name = "Hafidz Annur";
-        this.desc.link = "https://www.instagram.com/hafidz_annur/";
+        this.desc.name = "Ekadharmaaa";
+        this.desc.link = "https://www.instagram.com/ekadharmaaa/";
         this.desc.button = "Follow";
       } else if (n == "fb") {
         this.desc.icon = "fa-brands fa-facebook-f";
         this.desc.type = "Facebook";
-        this.desc.name = "Hafidz Annur";
-        this.desc.link = "https://web.facebook.com/hafid.annur/";
+        this.desc.name = "Eka Dharmaa";
+        this.desc.link = "https://www.facebook.com/eka.dharma.35175/";
         this.desc.button = "Add to Friend";
       } else if (n == "linkedin") {
         this.desc.icon = "fa-brands fa-linkedin";
         this.desc.type = "Linkedin";
-        this.desc.name = "Hafidz Annur";
+        this.desc.name = "eka dharma";
         this.desc.link =
-          "https://www.linkedin.com/in/hafidz-annur-fanany-1082a213a/";
+          "https://www.linkedin.com/in/eka-dharma-a9a875220/";
         this.desc.button = "Follow";
       } else if (n == "github") {
         this.desc.icon = "fa-brands fa-github";
         this.desc.type = "Github";
-        this.desc.name = "Hafidz Annur";
-        this.desc.link = "https://github.com/hafidz-annur/";
+        this.desc.name = "ekadharmaa";
+        this.desc.link = "https://github.com/ekadharmaa";
         this.desc.button = "Visit Now";
       } else if (n == "twitter") {
         this.desc.icon = "fa-brands fa-twitter";
         this.desc.type = "Twitter";
-        this.desc.name = "Hafidz Annur";
-        this.desc.link = "https://twitter.com/25_annur";
+        this.desc.name = "Ekadharma";
+        this.desc.link = "https://twitter.com/Ekadhar38191760";
         this.desc.button = "Follow";
       }
     },

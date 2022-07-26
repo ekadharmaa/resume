@@ -125,20 +125,12 @@ export default {
       skill: {
         backend: [
           {
-            name: "Laravel",
-            icon: "back-end/laravel-2.svg",
-          },
-          {
             name: "CodeIgniter",
             icon: "back-end/codeigniter.svg",
           },
           {
             name: "PHP",
             icon: "back-end/php-1.svg",
-          },
-          {
-            name: "Firebase",
-            icon: "back-end/firebase-1.svg",
           },
           {
             name: "MySQL",
@@ -161,10 +153,6 @@ export default {
           {
             name: "JQuery",
             icon: "front-end/jquery.svg",
-          },
-          {
-            name: "Sass_(stylesheet_language)",
-            icon: "front-end/sass-1.svg",
           },
           {
             name: "Bootstrap_(front-end_framework)",
@@ -191,10 +179,6 @@ export default {
           {
             name: "Visual_Studio_Code",
             icon: "tools/visual-studio-code-1.svg",
-          },
-          {
-            name: "Adobe_Photoshop",
-            icon: "tools/photoshop-cc-4.svg",
           },
         ],
       },

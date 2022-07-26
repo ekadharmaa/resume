@@ -1,14 +1,12 @@
 <template>
   <div id="personal">
     <div class="intro">
-      <div class="name">Hi, I am Hafidz <br /></div>
+      <div class="name">Hi, I am Ekadharma <br /></div>
 
       <VueWriter
         :array="[
-          'Software Engineer Senior',
+          'Front End Junior',
           'Web Developer',
-          'Son of My Mother',
-          'Husband of My Wife',
         ]"
         :eraseSpeed="40"
         :typeSpeed="50"
@@ -19,12 +17,12 @@
       <div class="card-body">
         <div class="profil">
           <div class="desc">
-            I have experience in web developer since 2018. I have developed many
-            web-apps using PHP native, CI Framework, Laravel Framework,
-            Bootsrap, VueJs etc
+            I have a student background at ITB STIKOM BALI. In January 2020 I attended a field work training at Kominfo Badung. 
+            I believe that my qualifications and skills can make a significant contribution to the company. 
+            I'm a person who can do well as part of a team and on my own. I am also a hard worker, and eager to learn.
           </div>
           <div class="foto">
-            <img src="@/assets/img/hafidz.webp" alt="" />
+            <img src="@/assets/img/eka.png" alt="" />
           </div>
         </div>
       </div>

@@ -144,7 +144,7 @@ export default {
     },
   },
   created() {
-    document.title = "My Resume - Hafidz Annur Fanany";
+    document.title = "My Resume - Eka Dharma";
     this.getData();
 
     // this.$router.push({ path: "/" });

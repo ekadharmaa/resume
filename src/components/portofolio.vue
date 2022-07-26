@@ -80,36 +80,28 @@ export default {
   data() {
     return {
       detail: {
-        title: "Internal Operation System",
-        img: "d-internal.webp",
-        desc: "This system is used to manage client data, business development, finance and employees.",
+        title: "Portofolio",
+        img: "portofolio.png",
+        desc: "My First Portofolio",
         tech: [
-          "back-end/codeigniter.svg",
-          "back-end/mysql-4.svg",
           "front-end/html-1.svg",
           "front-end/css-3.svg",
-          "front-end/jquery.svg",
-          "front-end/bootstrap-5-1.svg",
         ],
       },
       list: [
         {
-          title: "Internal Operation System",
-          img: "d-internal.webp",
-          desc: "This system is used to manage client data, business development, finance and employees.",
-          tech: [
-            "back-end/codeigniter.svg",
-            "front-end/css-3.svg",
-            "front-end/html-1.svg",
-            "back-end/mysql-4.svg",
-            "front-end/bootstrap-5-1.svg",
-            "front-end/jquery.svg",
+        title: "Portofolio",
+        img: "portofolio.png",
+        desc: "My First Portofolio",
+        tech: [
+          "front-end/html-1.svg",
+          "front-end/css-3.svg",
           ],
         },
         {
-          title: "Edufair Website",
-          img: "d-edufair.webp",
-          desc: "This system is used to help students, parents conduct 1on1 meetings with admissions from several universities in the world",
+          title: " Website Cashier",
+          img: "kasir.jpeg",
+          desc: "This system is used to help cashiers, to make transactions",
           tech: [
             "back-end/codeigniter.svg",
             "front-end/html-1.svg",
@@ -120,9 +112,9 @@ export default {
           ],
         },
         {
-          title: "Essay Editing Website",
-          img: "d-essay.webp",
-          desc: "This system is used to manage client data, business development, finance and employees.",
+          title: "Website Game Community",
+          img: "uog.png",
+          desc: "This system is used to help the gaming community.",
           tech: [
             "back-end/codeigniter.svg",
             "back-end/mysql-4.svg",
@@ -130,33 +122,6 @@ export default {
             "front-end/html-1.svg",
             "front-end/bootstrap-5-1.svg",
             "front-end/jquery.svg",
-          ],
-        },
-        {
-          title: "Internship Website",
-          img: "d-internship.webp",
-          desc: "This system is used to help students do internships with partner companies.",
-          tech: [
-            "back-end/laravel-2.svg",
-            "back-end/mysql-4.svg",
-            "front-end/html-1.svg",
-            "front-end/jquery.svg",
-            "front-end/css-3.svg",
-            "front-end/bootstrap-5-1.svg",
-          ],
-        },
-        {
-          title: "Career Module Website",
-          img: "d-career-module.webp",
-          desc: "This system is used to provide student guidebooks or career modules, which can help students choose the right major.",
-          tech: [
-            "back-end/laravel-2.svg",
-            "back-end/mysql-4.svg",
-            "front-end/vue-9.svg",
-            "front-end/html-1.svg",
-            "front-end/css-3.svg",
-            "front-end/jquery.svg",
-            "front-end/bootstrap-5-1.svg",
           ],
         },
       ],

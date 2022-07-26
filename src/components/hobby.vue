@@ -39,19 +39,6 @@
             class="position-absolute card-icon p-1 px-4 shadow-sm"
             style="width: 45%; border-radius: 15px"
           >
-            <img src="@/assets/img/icon/jogging.webp" class="w-100" />
-          </div>
-          <div class="d-flex card-title align-items-center shadow-sm">
-            <h3 class="my-0">Jogging</h3>
-          </div>
-        </div>
-      </SplideSlide>
-      <SplideSlide class="py-2">
-        <div class="card-outline d-flex align-items-center">
-          <div
-            class="position-absolute card-icon p-1 px-4 shadow-sm"
-            style="width: 45%; border-radius: 15px"
-          >
             <img src="@/assets/img/icon/musik.webp" class="w-100" />
           </div>
           <div class="d-flex card-title align-items-center shadow-sm">
@@ -81,7 +68,7 @@
             <img src="@/assets/img/icon/gitar.webp" class="w-100" />
           </div>
           <div class="d-flex card-title align-items-center shadow-sm">
-            <h3 class="my-0">Play Gitar</h3>
+            <h3 class="my-0">Play Musical Instrument</h3>
           </div>
         </div>
       </SplideSlide>

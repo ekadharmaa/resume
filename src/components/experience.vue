@@ -14,17 +14,17 @@
             <div class="text-start">
               <button
                 class="btn btn-city btn-sm py-1 px-3 shadow-sm me-1"
-                :class="city == 'Srengseng Jakarta' ? 'active' : ''"
-                @click="checkLocation('Srengseng Jakarta')"
+                :class="city == 'Denpasar' ? 'active' : ''"
+                @click="checkLocation('Denpasar')"
               >
-                Srengseng
+                Denpasar
               </button>
               <button
                 class="btn btn-city btn-sm py-1 px-3 shadow-sm"
-                :class="city == 'Surakarta' ? 'active' : ''"
-                @click="checkLocation('Surakarta')"
+                :class="city == 'Jakarta' ? 'active' : ''"
+                @click="checkLocation('Jakarta')"
               >
-                Surakarta
+                Jakarta
               </button>
             </div>
             <div class="text-end" v-if="yourLocation.latitude != ''">
@@ -155,59 +155,53 @@
             :class="tab == 1 ? 'active shadow-sm' : ''"
             @click="tab = 1"
           >
-            <div class="ts-year">2021-Current</div>
-            <div class="ts-pos">Software Engineer Senior</div>
-            <hr class="my-1" />
-            <div class="ts-year">2019-2021</div>
-            <div class="ts-pos">Software Engineer Associate</div>
+            <div class="ts-year">2020-Current</div>
+            <div class="ts-pos">Entry Dokumen </div>
           </div>
           <div
             class="ts-list pointer"
             :class="tab == 2 ? 'active shadow-sm' : ''"
             @click="tab = 2"
           >
-            <div class="ts-year">2015-2018</div>
-            <div class="ts-pos">IT Staff</div>
+            <div class="ts-year">2020</div>
+            <div class="ts-pos">Magang</div>
           </div>
           <div
             class="ts-list pointer"
             :class="tab == 3 ? 'active shadow-sm' : ''"
             @click="tab = 3"
           >
-            <div class="ts-year">2016</div>
-            <div class="ts-pos">Web Developer (Internship)</div>
+            <div class="ts-year">2019</div>
+            <div class="ts-pos">Freelance</div>
           </div>
         </div>
         <div class="timeline-content text-end">
           <transition name="slide">
             <div v-if="tab == 1">
-              PT. Jawara Edukasih Indonesia
+              Badan Pusat Statistik
               <hr class="my-1" />
-              Managing all-in's website, such as maintaining, designing and
-              improving the website performance. After that i have made several
-              systems from planning until implementation, and this system can
-              help and make it easier for company to improve performance.
+              Lembaga Pemerintah Nonkementerian yang bertanggung jawab langsung kepada Presiden. 
+              Sebelumnya, BPS merupakan Biro Pusat Statistik, yang dibentuk berdasarkan UU Nomor 6 Tahun 1960 tentang Sensus dan UU Nomor 7 Tahun 1960 tentang Statistik. 
+              Sebagai pengganti kedua UU tersebut ditetapkan UU Nomor 16 Tahun 1997 tentang Statistik.
             </div>
           </transition>
 
           <transition name="slide">
             <div v-if="tab == 2">
-              Taman Cerdas Puntadewa
+              Kominfo Command Center Badung
               <hr class="my-1" />
-              Guide childs around 7th until 15th years old to learn about
-              computer science, such as how to use computer from turning on and
-              off the computer, using microsoft office and painting with windows
-              feature etc.
+              Learn about building and maintaining a website. After that for my assignment, I have created an attendance system with PHP Native
             </div>
           </transition>
 
           <transition name="slide">
             <div v-if="tab == 3">
-              CV. Jogja Web Center
+              Freelance
               <hr class="my-1" />
-              Learn about how to build and maintance the website with wordpress
-              platform. After that for my taks, i have made the financial system
-              to help managing company's finance with PHP Native.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+              remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
             </div>
           </transition>
         </div>
@@ -227,7 +221,7 @@ export default {
   data() {
     return {
       tab: 1,
-      city: "Srengseng Jakarta",
+      city: "Denpasar",
       localtime: "",
       locationWeather: [],
       currentWeather: [],
@@ -275,7 +269,7 @@ export default {
       this.getWeather(city);
     },
 
-    async getWeather(city = "Srengseng Jakarta") {
+    async getWeather(city = "Denpasar") {
       this.loading();
       try {
         const response = await axios.get(

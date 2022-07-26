@@ -19,10 +19,10 @@
       <SplideSlide>
         <div class="edu-card">
           <div class="school">
-            <h4>STMIK Duta Bangsa</h4>
-            <h5>Surakarta</h5>
+            <h4>ITB Stikom Bali</h4>
+            <h5>Denpasar</h5>
           </div>
-          <div class="year">2014-2018</div>
+          <div class="year">2021-Current</div>
           <div class="edu-img">
             <i class="fa-solid fa-graduation-cap"></i>
           </div>
@@ -31,10 +31,10 @@
       <SplideSlide>
         <div class="edu-card">
           <div class="school">
-            <h4>SMK Negeri 5</h4>
-            <h5>Surakarta</h5>
+            <h4>SMK TI Bali Global</h4>
+            <h5>Denpasar</h5>
           </div>
-          <div class="year">2011-2014</div>
+          <div class="year">2018-2019</div>
           <div class="edu-img">
             <i class="fa-solid fa-graduation-cap"></i>
           </div>
@@ -43,10 +43,10 @@
       <SplideSlide>
         <div class="edu-card">
           <div class="school">
-            <h4>SMP Negeri 27</h4>
-            <h5>Surakarta</h5>
+            <h4>SMP Ganesha</h4>
+            <h5>Denpasar</h5>
           </div>
-          <div class="year">2008-2011</div>
+          <div class="year">2015-2018</div>
           <div class="edu-img">
             <i class="fa-solid fa-graduation-cap"></i>
           </div>
