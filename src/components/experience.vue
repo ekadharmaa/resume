@@ -155,7 +155,7 @@
             :class="tab == 1 ? 'active shadow-sm' : ''"
             @click="tab = 1"
           >
-            <div class="ts-year">2020-Current</div>
+            <div class="ts-year">2020-2023</div>
             <div class="ts-pos">Entry Dokumen </div>
           </div>
           <div
@@ -196,7 +196,7 @@
 
           <transition name="slide">
             <div v-if="tab == 3">
-              Freelance
+              Freelance Developer Website
               <hr class="my-1" />
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
