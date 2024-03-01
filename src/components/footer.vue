@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <div class="container py-3">
-      <div class="text-center">Copyright &copy; 2022 by Eka Dharma</div>
+      <div class="text-center">Copyright &copy; 2024 by Eka Dharma</div>
     </div>
   </div>
 </template>
